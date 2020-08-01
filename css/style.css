@@ -1,0 +1,150 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f!important;
+	font-family: 'Oxygen', sans-serif;
+}
+html{
+	background-color: #61122f;
+}
+.navbar>.container, .navbar>.container-fluid {
+    display: block !important;
+}
+/*header*/
+#header-nav{
+
+	background-color: #cc2900;
+	border-radius: 0;
+	border: 0;
+}
+.navbar {
+margin-bottom: 0 !important;
+}
+
+.navbar-toggler{
+	position: absolute;
+}
+.navbar-right{
+	float: right;
+}
+ 
+.navbar-brand{
+	padding-top: 25px!important;	
+}
+/* .navbar-nav {
+	flex-direction: row !important;
+} */
+
+.navbar-brand h1{ /* restaurnt name*/
+	font-family: 'Lora', serif;
+	color: #f4e1d2;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+/* #nav-list a:hover{
+	background :repeat;
+} */
+
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggler{
+	clear: both;
+}
+#nav-list span {
+	position: relative;
+	right: 60px;
+    width: 200px;
+    background: #cfe0e8; 
+    border: 2px solid red;
+    font-size: 1.8em;
+    text-align: center;
+    color: red;
+}
+
+nav.navbar .navbar-light {
+    float: right;
+    margin-right: 40px;
+}
+
+/* END HEADER*/
+
+/***MAIN CONTENT***/
+#main-content{
+  text-align: center;
+  color: #FFA781;
+  font-weight: bold;
+  margin: 50px;  
+}
+
+ #main-content .Chicken{
+	/*width: 100%;*/
+	border: 2px solid white;
+	background-color:  #cc2900;
+    
+	margin-bottom: 10px;
+	}
+#main-content .Sushi{
+	width: 100%;
+	border: 2px solid white;
+	background-color:  #cc2900;
+	
+	margin:0 10vw 10px 10vw;
+	}
+#main-content .Beef{
+	width: 100%;
+	border: 2px solid white;
+	background-color:  #cc2900;
+	}	
+/*.col-md-3{
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+/*            LARGE DEVICES ONLY            */
+@media(min-width: 1200px){
+
+}
+
+/*            MEDIUM DEVICE ONLY               */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+/*            SMALL DEVICES                    */
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+@media(max-width:767px ){
+	.navbar-brand{
+		padding-top: 10px!important;
+		
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	#collapsable-nav a{
+      font-size: 1.2em
+		}
+    #collapsable-nav a span{
+    	font-size: 1em;
+    	margin-right: 5px;
+    }
+	#main-content .Sushi{
+		margin: 0 0 10px 0;
+	}
+}
